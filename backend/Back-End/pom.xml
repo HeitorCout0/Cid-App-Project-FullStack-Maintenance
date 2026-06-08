@@ -145,11 +145,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
-                <version>3.21.2</version>
+                <version>3.23.0</version>
                 <configuration>
                     <sourceEncoding>UTF-8</sourceEncoding>
                     <minimumTokens>100</minimumTokens>
-                    <targetJdk>${java.version}</targetJdk>
                     <failOnViolation>false</failOnViolation>
                     <printFailingErrors>true</printFailingErrors>
                     <excludeRoots>
@@ -231,10 +230,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
-                <version>3.21.2</version>
-                <configuration>
-                    <targetJdk>${java.version}</targetJdk>
-                </configuration>
+                <version>3.23.0</version>
             </plugin>
 
             <plugin>
